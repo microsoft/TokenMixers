@@ -1,0 +1,5 @@
+torchvision==0.8.2
+timm==0.3.2
+fvcore
+termcolor
+tensorboard
