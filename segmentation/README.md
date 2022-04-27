@@ -8,13 +8,25 @@ This is the official impelmentation of [ActiveMLP](https://arxiv.org/abs/2203.06
 
 ### ADE20K 
 
-| Backbone | Method | #iters | mIoU | mIoU (ms) | #params. | FLOPs | model |
+#### UperNet
+
+| Backbone | Method | #iters | mIoU | mIoU (ms) | #params. | FLOPs (512x2048)  | model |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Active-xT | UperNet | 160K | 44.27 | 45.44 | 45.3M | 889.5G |  |
 | Active-T | UperNet | 160K | 46.46 | 47.55 | 57.1M | 926.9G |  |
 | Active-S | UperNet | 160K | 48.42 | 49.49 | 68.6M | 988.3G |  |
 | Active-B | UperNet | 160K | 48.63 | 49.86 | 82.1M | 1055.9G |  |
-| Active-L | UperNet | 160K | 50.05 | 51.10 | 107.9M | 1105.6G | [model](https://drive.google.com/file/d/1vWTI7gRiI3Fd5g6UPziSyafliq3yrhrO/view?usp=sharing)/[log](https://drive.google.com/file/d/17mWkgCwxRQartOVzfe_ZiG-SwaJppISk/view?usp=sharing) |
+| Active-L | UperNet | 160K | 50.05 | **51.10** | 107.9M | 1105.6G | [model](https://drive.google.com/file/d/1vWTI7gRiI3Fd5g6UPziSyafliq3yrhrO/view?usp=sharing)/[log](https://drive.google.com/file/d/17mWkgCwxRQartOVzfe_ZiG-SwaJppISk/view?usp=sharing) |
+
+#### Semantic FPN
+
+| Backbone | Method | #iters | mIoU | #params. | FLOPs (512x512) | model |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Active-xT | Semantic FPN | 40K | 43.03 | 19.1M | 33.1G |  |
+| Active-T | Semantic FPN | 40K | 45.84 | 30.9M | 42.4G |  |
+| Active-S | Semantic FPN | 40K | 47.30 | 42.4M | 57.8G |  |
+| Active-B | Semantic FPN | 40K | 47.73 | 55.9M | 74.7G |  |
+| Active-L | Semantic FPN | 40K | **48.05** | 79.8M | 86.6G |  |
 
 ## Usage
 
