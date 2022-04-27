@@ -28,7 +28,7 @@ The ActiveMLP variants achieves `79.7% ~ 83.8%` acc@top1 with model scaled from 
 git clone https://github.com/microsoft/ActiveMLP.git
 cd ActiveMLP
 ```
-- Install `pytorch` following the [official guideline](https://pytorch.org/), we run with `pytorch==1.7.1` with `cuda==11.1` and `cudnn8`.
+- Install `pytorch` following the [official guideline](https://pytorch.org/), we use `pytorch==1.7.1` with `cuda==11.1` and `cudnn8`.
 - Install other packages with:
 ```bash
 pip install -r requirements.txt
