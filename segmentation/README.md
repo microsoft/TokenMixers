@@ -21,7 +21,7 @@ This is the official impelmentation of [ActiveMLP](https://arxiv.org/abs/2203.06
 #### Semantic FPN
 
 | Backbone | Method | #iters | mIoU | #params. | FLOPs (512x512) | model |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Active-xT | Semantic FPN | 40K | 43.03 | 19.1M | 33.1G |  |
 | Active-T | Semantic FPN | 40K | 45.84 | 30.9M | 42.4G |  |
 | Active-S | Semantic FPN | 40K | 47.30 | 42.4M | 57.8G |  |
