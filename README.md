@@ -4,7 +4,7 @@ This repo is the official implementation of "*[ActiveMLP: An MLP-like Architectu
 
 **ActiveMLP** is a general MLP-like visual backbone, which is applicable to image classification, object detection and semantic segmentation tasks. The core operator, Active Token Mixer (`ATM`), actively incorporates contextual information from other tokens in the global scope. It adaptively predicts where to capture useful contexts and learns how to fuse the captured contexts with the origianl information at channel levels. 
 
-The ActiveMLP variants achieve `79.7% ~ 83.8%` acc@top1 with models scaled from `15M ~ 76M` on ImageNet-1K. It also shows the superiority on downstream dense prediction tasks. `ActiveMLP-Large` achieves `51.1% mIoU` with UperNet on ADE20K semantic segmentation dataset.  
+The ActiveMLP variants achieve `79.7% ~ 83.8%` acc@top1 with the models scaled from `15M ~ 76M` on ImageNet-1K. It also shows the superiority on downstream dense prediction tasks. `ActiveMLP-Large` achieves `51.1% mIoU` with UperNet on ADE20K semantic segmentation dataset.  
 
 
 ![ActiveMLP](assets/teaser.png)
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ### Data preparation
 
-Download the standard ImageNet dataset from [http://image-net.org](http://image-net.org), and construct the data like:
+Download the standard ImageNet-1K dataset from [http://image-net.org](http://image-net.org), and construct the data like:
 ```bash
 ImageNet_Root
 ├── train
