@@ -20,7 +20,7 @@ This is the official impelmentation of [ActiveMLP](https://arxiv.org/abs/2203.06
 
 ### Install and data preparation
 
-- Install required packages following [activemlp](../README.md).
+- Install required packages following [ActiveMLP](../README.md).
 - Install `mmcv` and `mmsegmentation` with:
 ```bash
 pip install mmcv-full==1.3.0 mmsegmentation==0.11.0
