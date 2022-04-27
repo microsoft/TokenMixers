@@ -2,7 +2,7 @@
 
 This repo is the official implementation of "*[ActiveMLP: An MLP-like Architecture with Active Token Mixer](https://arxiv.org/abs/2203.06108)*", by *Guoqiang Wei\*, Zhizheng Zhang\*, Cuiling Lan, Yan Lu and Zhibo Chen*.
 
-**ActiveMLP** is a general MLP-like visual backbone, which is applicable to image classification, object detection and semantic segmentation tasks. The core operator, Activ Token Mixer (`ATM`), actively incorporates contextual information from other tokens in the global scope. It adaptively predicts where to capture useful contexts and learns how to fuse the captured contexts with the origianl information at channel levels. 
+**ActiveMLP** is a general MLP-like visual backbone, which is applicable to image classification, object detection and semantic segmentation tasks. The core operator, Active Token Mixer (`ATM`), actively incorporates contextual information from other tokens in the global scope. It adaptively predicts where to capture useful contexts and learns how to fuse the captured contexts with the origianl information at channel levels. 
 
 The ActiveMLP variants achieves `79.7% ~ 83.8%` acc@top1 with model scaled from `15M ~ 76M` on ImageNet-1K. It also shows its superiority on downstream dense prediction tasks. `ActiveMLP-Large` achieves `51.1% mIoU` with UperNet on ADE20K semantic segmentation dataset.  
 
