@@ -21,6 +21,8 @@ The ActiveMLP variants achieves `79.7% ~ 83.8%` acc@top1 with model scaled from 
 
 ## Usage
 
+The following is the guideline for ActiveMLP on image classification task, the usage on semantic segmentation can be found [here](segmentation/README.md).
+
 ### Install
 
 - Clone this repo:
