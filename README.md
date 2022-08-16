@@ -4,20 +4,21 @@ This repo is the official implementation of "*[ActiveMLP: An MLP-like Architectu
 
 **ActiveMLP** is a general MLP-like visual backbone, which is applicable to image classification, object detection and semantic segmentation tasks. The core operator, Active Token Mixer (`ATM`), actively incorporates contextual information from other tokens in the global scope. It adaptively predicts where to capture useful contexts and learns how to fuse the captured contexts with the origianl information at channel levels. 
 
-The ActiveMLP variants achieve `79.7% ~ 83.8%` acc@top1 with the models scaled from `15M ~ 76M` on ImageNet-1K. It also shows the superiority on downstream dense prediction tasks. `ActiveMLP-Large` achieves `51.1% mIoU` with UperNet on ADE20K semantic segmentation dataset.  
+The ActiveMLP variants achieve `79.7% ~ 84.8%` acc@top1 with the models scaled from `15M ~ 76M` on ImageNet-1K. It also shows the superiority on downstream dense prediction tasks. `ActiveMLP-Large` achieves `51.1% mIoU` with UperNet on ADE20K semantic segmentation dataset.  
 
 
 ![ActiveMLP](assets/teaser.png)
 
-## Model zoo
+## Image classification on ImageNet-1K
 
-| name |acc@1 | acc@5 | #params | FLOPs | download |
+| name | size |acc@1 | #params | FLOPs | download |
 |:---:|:---:|:---:| :---:| :---:|:---:|
-| Active-xT | 79.7 | 94.9 | 15M | 2.2G | [model](https://drive.google.com/file/d/1JjWFDJM097a2sX9zw2oOisCT-7T43-DV/view?usp=sharing) |
-| Active-T | 82.0 | 95.9 | 27M | 4.0G | [model](https://drive.google.com/file/d/1eFv5SsGr6ZpupY0wB-N2mjVhQLSo92o-/view?usp=sharing) |
-| Active-S | 83.1 | 96.3 | 39M | 6.9G |  |
-| Active-B | 83.5 | 96.6 | 52M | 10.1G |  |
-| Active-L | 83.8 | 96.6 | 76M | 12.4G | [model](https://drive.google.com/file/d/1aIEnq_5-oS8jiLr2W8ryLabmzHTmR3J0/view?usp=sharing) |
+| Active-xT | 224 $\times$ 224 | 79.7 | 15M | 2.2G | [model](https://drive.google.com/file/d/1JjWFDJM097a2sX9zw2oOisCT-7T43-DV/view?usp=sharing) / [log](https://drive.google.com/file/d/1Ppe7HlMLruQpsiZ8km4sbimkO9XIpfLV/view?usp=sharing) |
+| Active-T | 224 $\times$ 224 | 82.0 | 27M | 4.0G | [model](https://drive.google.com/file/d/1eFv5SsGr6ZpupY0wB-N2mjVhQLSo92o-/view?usp=sharing) / [log](https://drive.google.com/file/d/19IJSP-TWBxvA5UJVcYVhqlYRHkkDTdVJ/view?usp=sharing) |
+| Active-S | 224 $\times$ 224 | 83.1 | 39M | 6.9G | [model](https://drive.google.com/file/d/1lEsyiXxOxT6KMrzaSCxR04i6FxLtVVAs/view?usp=sharing) / [log](https://drive.google.com/file/d/1YoaOIjlb0lCRAyrTIpgeB_NWySbkTgpB/view?usp=sharing)  |
+| Active-B | 224 $\times$ 224 | 83.5 | 52M | 10.1G | [model](https://drive.google.com/file/d/1cCLS1u4043qKgVIKkGJfLhPz_JzE6FRs/view?usp=sharing) |
+| Active-L | 224 $\times$ 224 | 83.8 | 76M | 12.4G | [model](https://drive.google.com/file/d/1aIEnq_5-oS8jiLr2W8ryLabmzHTmR3J0/view?usp=sharing) |
+| Active-L $\uparrow$ | 384 $\times$ 384 | 84.8 | 76M | 36.4G | [model](https://drive.google.com/file/d/13nrfXqc49s8kKrEKpNSltEdqMBg3f1rB/view?usp=sharing) |
 
 ## Usage
 

@@ -246,12 +246,12 @@ def main(args):
             lr_scheduler.load_state_dict(checkpoint['lr_scheduler'])
             args.start_epoch = checkpoint['epoch'] + 1
             acc_max = checkpoint['acc_max'] if 'acc_max' in checkpoint.keys() else acc_max
-            if args.model_ema:
-                logger.info("    + loading model_ema")
-                utils.load_checkpoint_for_ema(model_ema, checkpoint['model_ema'])
-            if 'scaler' in checkpoint:
-                logger.info("    + loading loss_scaler")
-                loss_scaler.load_state_dict(checkpoint['scaler'])
+        if args.model_ema:
+            logger.info("    + loading model_ema")
+            utils.load_checkpoint_for_ema(model_ema, checkpoint['model_ema'])
+        if 'scaler' in checkpoint:
+            logger.info("    + loading loss_scaler")
+            loss_scaler.load_state_dict(checkpoint['scaler'])
 
     # ------------------------ throughput ------------------------
     if args.throughput:
