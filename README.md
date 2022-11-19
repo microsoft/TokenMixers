@@ -1,4 +1,4 @@
-# ActiveMLP
+# ActiveMLP (AAAI 2023)
 
 This repo is the official implementation of "*[ActiveMLP: An MLP-like Architecture with Active Token Mixer](https://arxiv.org/abs/2203.06108)*", by *Guoqiang Wei\*, Zhizheng Zhang\*, Cuiling Lan, Yan Lu and Zhibo Chen*.
 
