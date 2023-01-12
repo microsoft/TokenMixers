@@ -1,8 +1,7 @@
 <a href="https://arxiv.org/abs/2203.06108"><img src="https://img.shields.io/badge/arXiv-2203.06108-b31b1b.svg" height=22.5></a>
+<a href="https://arxiv.org/abs/2203.06108"><img src="https://img.shields.io/static/v1?label=AAAI 2023 &message=Oral&color=red" height=22.5></a>  
 
-<a href="https://arxiv.org/abs/2203.06108"><img src="https://img.shields.io/static/v1?label=AAAI &message=2023&color=red" height=22.5></a>  
-
-# ActiveMLP (AAAI 2023)
+# ActiveMLP (AAAI 2023 Oral)
 
 This repo is the official implementation of "*[ActiveMLP: An MLP-like Architecture with Active Token Mixer](https://arxiv.org/abs/2203.06108)*", by *Guoqiang Wei\*, Zhizheng Zhang\*, Cuiling Lan, Yan Lu and Zhibo Chen*.
 
