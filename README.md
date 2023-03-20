@@ -1,9 +1,9 @@
 <a href="https://arxiv.org/abs/2203.06108"><img src="https://img.shields.io/badge/arXiv-2203.06108-b31b1b.svg" height=22.5></a>
 <a href="https://arxiv.org/abs/2203.06108"><img src="https://img.shields.io/static/v1?label=AAAI 2023 &message=Oral&color=red" height=22.5></a>  
 
-# ActiveMLP (AAAI 2023 Oral)
+# Active Token Mixer (AAAI 2023 Oral)
 
-This repo is the official implementation of "*[ActiveMLP: An MLP-like Architecture with Active Token Mixer](https://arxiv.org/abs/2203.06108)*", by *Guoqiang Wei\*, Zhizheng Zhang\*, Cuiling Lan, Yan Lu and Zhibo Chen*.
+This repo is the official implementation of "*[Active Token Mixer](https://arxiv.org/abs/2203.06108)*", by *Guoqiang Wei\*, Zhizheng Zhang\*, Cuiling Lan, Yan Lu and Zhibo Chen*.
 
 **ActiveMLP** is a general MLP-like visual backbone, which is applicable to image classification, object detection and semantic segmentation tasks. The core operator, Active Token Mixer (`ATM`), actively incorporates contextual information from other tokens in the global scope. It adaptively predicts where to capture useful contexts and learns how to fuse the captured contexts with the origianl information at channel levels. 
 
