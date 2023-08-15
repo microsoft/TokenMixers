@@ -16,24 +16,24 @@ This repo is the official implementation of "*[Adaptive Frequency Filters As Eff
 
 | name | size |acc@1(%) | #params | FLOPs | download |
 |:---:|:---:|:---:| :---:| :---:|:---:|
-| AFFNet-ET | 256 $\times$ 256 | 73.0 | 1.4M | 0.4G | [model/log/config](https://drive.google.com/drive/folders/1q134GgWljvkvX2i_miEMlRcZ3CU9JK-V?usp=drive_link)|
-| AFFNet-T | 256 $\times$ 256 | 77.0 | 2.6M | 0.8G | [model/log/config](https://drive.google.com/drive/folders/1yM_4bqTQdjjmBwIvlktYpuOvLgB8OhX7?usp=drive_link)|
-| AFFNet | 256 $\times$ 256 | 79.8 | 5.5M | 1.5G | [model/log/config](https://drive.google.com/drive/folders/14MZ4QND009KqTmeFBpBnVVDSx7FfiKMi?usp=drive_link)|
+| AFFNet-ET | 256 $\times$ 256 | 73.0 | 1.4M | 0.4G | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gRohpLEiih31-T24?e=KSOEZ5)|
+| AFFNet-T | 256 $\times$ 256 | 77.0 | 2.6M | 0.8G | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gR3bxUACGV1s-NCt?e=WrEVTC)|
+| AFFNet | 256 $\times$ 256 | 79.8 | 5.5M | 1.5G | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gRckRc6eJ4kB8dW3?e=7comla)|
 
 
 #### ADE20K
 | name | size | mIOU(%) | #params | download |
 |:---:|:---:|:---:| :---:| :---:|
-| AFFNet-ET + deeplab | 256 $\times$ 256 | 33.0 | 2.2M | [model/log/config](https://drive.google.com/drive/folders/19Bo3hXf1QeDaph7yGDBCRloxTc0H_ETN?usp=drive_link)|
-| AFFNet-T + deeplab | 256 $\times$ 256 | 36.9 | 3.5M | [model/log/config](https://drive.google.com/drive/folders/1RDuJlA8ZXk6lNzweUOWFO4nJWwTWHvk4?usp=drive_link)|
-| AFFNet + deeplab | 256 $\times$ 256 | 38.4 | 6.9M | [model/log/config](https://drive.google.com/drive/folders/19iP4VfhZmOdovo6Ib9Udrq7LH53mXpp2?usp=drive_link)|
+| AFFNet-ET + deeplab | 256 $\times$ 256 | 33.0 | 2.2M | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gRuknb2AkG0rFxtY?e=2aitPh)|
+| AFFNet-T + deeplab | 256 $\times$ 256 | 36.9 | 3.5M | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gRuknb2AkG0rFxtY?e=2aitPh)|
+| AFFNet + deeplab | 256 $\times$ 256 | 38.4 | 6.9M | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gRiSzBrJqE2SVAex?e=JHeo5F)|
 
 #### VOC
 | name | size | mIOU(%) | #params | download |
 |:---:|:---:|:---:| :---:| :---:|
-| AFFNet-ET + deeplab | 256 $\times$ 256 | 76.1 | 2.2M | [model/log/config](https://drive.google.com/drive/folders/1qjQrtufyiB0xPrcO06Q3JiSjLgYlChjE?usp=drive_link)|
-| AFFNet-T + deeplab | 256 $\times$ 256 | 77.8 | 3.5M | [model/log/config](https://drive.google.com/drive/folders/1ZYAHW6mytbSgPduz2jq_4wb9j1MuYjaD?usp=drive_link)|
-| AFFNet + deeplab | 256 $\times$ 256 | 80.5 | 6.9M | [model/log/config](https://drive.google.com/drive/folders/11Jz4sZCQQ0M3eNx41a3vasF_yFTNSiMB?usp=drive_link)|
+| AFFNet-ET + deeplab | 256 $\times$ 256 | 76.1 | 2.2M | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gRyIz-KLsycCaWkJ?e=4w4De0)|
+| AFFNet-T + deeplab | 256 $\times$ 256 | 77.8 | 3.5M | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gR9_2V1Qn9QNgErc?e=YpCuKX)|
+| AFFNet + deeplab | 256 $\times$ 256 | 80.5 | 6.9M | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gRnr638DY4MgJyoL?e=ycqVco)|
 
 
 
