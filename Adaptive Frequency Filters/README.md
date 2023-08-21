@@ -50,11 +50,10 @@ cd TokenMixers/AFFNet/
 
 3. Install required packages:
 ```bash
-conda create -fyn ml-cvnets python=3.8
+conda create -fyn AFFNet python=3.8
 python -m pip install wandb ptflops einops
 python -m pip install -r requirements.txt
 python -m pip install psutil torchstat tqdm
-python -m pip install --editable .
 python -m pip install --upgrade fvcore
 python -m pip install complexPyTorch
 ```

@@ -1,0 +1,56 @@
+psutil
+ujson
+scikit-learn>=0.19.2
+scikit-image
+
+# requirement for Pytorch, Torchvision, TorchText
+torch==1.13.1
+torchvision==0.13.1
+torchtext==0.13.1 # torchtext version needs to be compatible with PyTorch version
+complexPyTorch==0.4
+torch-dct==0.1.6
+
+numpy==1.23.5
+
+# dependency for coremltools
+coremltools==6.2
+nvidia-tensorrt==99.0.0
+tensorrt==8.5.3.1
+
+
+chardet==5.1.0
+
+# dependency for MSCOCO dataset
+pycocotools
+
+# dependency for reading and writing images
+opencv-contrib-python==4.5.5.64
+
+# dependency for cityscape evaluation
+cityscapesscripts
+
+# added as a dependency to reproduce 3rd party models
+pytorchvideo
+
+# PyAV for video decoding
+av
+
+# FVCore for FLOP calculation
+fvcore
+
+# black for reformatting
+black
+
+# testing
+pytest
+
+# torchtext for multi-model learning
+ftfy
+
+# for hdf5 reading
+h5py
+
+# for reading byte data
+pybase64
+
+click
