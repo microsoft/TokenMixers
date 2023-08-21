@@ -2,8 +2,8 @@
 
 ### Introduction
 This repository includes the official Pytorch implementation for the following works on the basic neural operaters for mixing tokens, i.e., token mixers:
-- [Active Token Mixer](https://arxiv.org/abs/2302.14402), AAAI 2023 Oral, in [this folder](https://oai.azure.com/portal/12e4fd51447842059bfaf89af93e0dfd/ActiveMLP/).
-- [Adaptive Frequency Filters As Efficient Global Token Mixers](https://arxiv.org/abs/2302.14402), ICCV 2023, in [this folder](https://oai.azure.com/portal/12e4fd51447842059bfaf89af93e0dfd/AFFNet/).
+- [Active Token Mixer](https://arxiv.org/abs/2203.06108), AAAI 2023 Oral, in [this folder](https://oai.azure.com/portal/12e4fd51447842059bfaf89af93e0dfd/ActiveMLP/).
+- [Adaptive Frequency Filters As Efficient Global Token Mixers](https://arxiv.org/abs/2307.14008), ICCV 2023, in [this folder](https://oai.azure.com/portal/12e4fd51447842059bfaf89af93e0dfd/AFFNet/).
 
 
 
