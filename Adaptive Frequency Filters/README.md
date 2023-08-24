@@ -25,7 +25,7 @@ This repo is the official implementation of "*[Adaptive Frequency Filters As Eff
 | name | size | mIOU(%) | #params | download |
 |:---:|:---:|:---:| :---:| :---:|
 | AFFNet-ET + deeplab | 256 $\times$ 256 | 33.0 | 2.2M | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gRuknb2AkG0rFxtY?e=2aitPh)|
-| AFFNet-T + deeplab | 256 $\times$ 256 | 36.9 | 3.5M | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gRuknb2AkG0rFxtY?e=2aitPh)|
+| AFFNet-T + deeplab | 256 $\times$ 256 | 36.9 | 3.5M | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gR4r1myAxXzNYwfx?e=3op526)|
 | AFFNet + deeplab | 256 $\times$ 256 | 38.4 | 6.9M | [model/log/config](https://1drv.ms/f/s!AjKVODXuNei2gRiSzBrJqE2SVAex?e=JHeo5F)|
 
 #### VOC
