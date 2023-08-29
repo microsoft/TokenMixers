@@ -5,7 +5,7 @@ scikit-image
 
 # requirement for Pytorch, Torchvision, TorchText
 torch==1.13.1
-torchvision==0.13.1
+torchvision==0.15.2
 torchtext==0.13.1 # torchtext version needs to be compatible with PyTorch version
 complexPyTorch==0.4
 torch-dct==0.1.6
@@ -54,3 +54,7 @@ h5py
 pybase64
 
 click
+
+opencv-python
+
+pycocotools

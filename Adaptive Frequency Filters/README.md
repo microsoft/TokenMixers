@@ -51,6 +51,7 @@ cd TokenMixers/AFFNet/
 3. Install required packages:
 ```bash
 conda create -fyn AFFNet python=3.8
+conda activate AFFNet
 python -m pip install wandb ptflops einops
 python -m pip install -r requirements.txt
 python -m pip install psutil torchstat tqdm
