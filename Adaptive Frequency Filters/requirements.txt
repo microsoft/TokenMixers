@@ -24,7 +24,7 @@ chardet==5.1.0
 pycocotools
 
 # dependency for reading and writing images
-opencv-contrib-python==4.5.5.64
+opencv-contrib-python==4.8.1.78
 
 # dependency for cityscape evaluation
 cityscapesscripts
